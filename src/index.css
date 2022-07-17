@@ -1,0 +1,38 @@
+body {
+   /* margin: 10px; */
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   box-sizing: border-box;
+   font-family: "Edu NSW ACT Foundation", cursive;
+   font-family: "Pacifico", cursive;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+}
+
+.heading h1 {
+   color: #fa9191;
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: bold;
+}
+.heading p {
+   color: #4b70e9;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+.imageStyle {
+   display: flex;
+   justify-content: center;
+}
+.imageStyle img {
+   width: 200px;
+   height: 150;
+   margin-right: 10px;
+}
